@@ -1,6 +1,6 @@
 package com.bankConsole.appdriver;
 
-import userInterfaces.*;
+import com.bankConsole.userInterfaces.Menu;
 
 public class Driver {
 	public static void main(String[] args) {

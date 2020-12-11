@@ -1,4 +1,4 @@
-package userInterfaces;
+package com.bankConsole.userInterfaces;
 
 import java.util.Scanner;
 
