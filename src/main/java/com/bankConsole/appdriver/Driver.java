@@ -1,13 +1,14 @@
 package com.bankConsole.appdriver;
 
-import com.bankConsole.userInterfaces.Menu;
+import com.bankConsole.userInterfaces.*;
 
 public class Driver {
 	public static void main(String[] args) {
 		Menu aMenu = new Menu();
+		Login startScreen = new Login();
 		// print login menu
-		aMenu.displayHeader();
-		aMenu.prompt();
+		startScreen.displayHeader();
+		startScreen.promptLoginMessage();
 		// prompt username
 		// prompt password
 		
